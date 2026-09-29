@@ -1,0 +1,10 @@
+DARTE CUERO - Plan Anual de SST (app de escritorio en Python)
+
+1) Instalar:   pip install -r requirements.txt
+2) Ejecutar:   python main.py
+3) Crear .exe: pip install pyinstaller
+               pyinstaller --onefile --windowed --add-data "assets;assets" main.py
+               (en Linux/Mac usa "assets:assets")
+
+Carpeta assets/  -> fondos, portada, logo y fotos (extraidos del HTML)
+Documentos       -> son enlaces de Google Drive/Docs (lista ENLACES en main.py)
